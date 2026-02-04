@@ -78,16 +78,32 @@ const Navbar = () => {
             <p>retour</p>
           </div>
           {/* NavLink Mobile  */}
-          <NavLink className="py-2 pl-6 border" to="/">
+          <NavLink
+            onClick={() => setVisible(false)}
+            className="py-2 pl-6 border"
+            to="/"
+          >
             ACCUEIL
           </NavLink>
-          <NavLink className="py-2 pl-6 border" to="/collection">
+          <NavLink
+            onClick={() => setVisible(false)}
+            className="py-2 pl-6 border"
+            to="/collection"
+          >
             COLLECTIONS
           </NavLink>
-          <NavLink className="py-2 pl-6 border" to="/about">
+          <NavLink
+            onClick={() => setVisible(false)}
+            className="py-2 pl-6 border"
+            to="/about"
+          >
             A PROPOS
           </NavLink>
-          <NavLink className="py-2 pl-6 border" to="/contact">
+          <NavLink
+            onClick={() => setVisible(false)}
+            className="py-2 pl-6 border"
+            to="/contact"
+          >
             CONTACT
           </NavLink>
         </div>
