@@ -20,12 +20,12 @@ const Hero = () => {
             <p className="font-semibold text-sm md:text-base">
               Acheter maintenant
             </p>
-            <p className="w-8 md:w-11 h-[1px] bg-[#414141]"></p>  
+            <p className="w-8 md:w-11 h-px bg-[#414141]"></p>  
           </div>
         </div>
       </div>
       {/* Hero Right Side */}
-      <img src={assets.hero_img} alt="hero image" className="w-full sm:w-1/2 object-cover" />
+      <img src={assets.hero_img1} alt="hero image" className="w-full sm:w-1/2 object-cover" />
 
     </div>
   );
