@@ -9,10 +9,12 @@ import Orders from './pages/Orders';
 import Contact from './pages/Contact';
 import PlaceOrder from './pages/PlaceOrder';
 import Cart from './pages/Cart';
+import Navbar from './components/Navbar.jsx';
 
 const App = () => {
   return (
     <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
